@@ -1,0 +1,28 @@
+.contentWrap{
+    width: 960px;
+    margin: auto;
+    background: #fff;
+}
+.idTitle{
+    display: flex;
+    margin-left: 30px;
+}
+.idTitle p{
+    margin: 20px 5px 10px;
+    margin-left: 10px;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.content{
+    margin: 15px 40px;
+    color: #696969;
+}
+.params{
+    margin-left: 30px;
+}
+.loading{
+    color: #fff;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 30px;
+}

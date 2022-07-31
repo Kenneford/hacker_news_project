@@ -1,0 +1,34 @@
+.story-head{
+    display: flex;
+    justify-content: space-between;
+    background: #fe6f1c;
+    height: 35px;
+}
+.story-head p, h3:hover{
+    cursor: pointer;
+}
+.left-head{
+    display: flex;
+    align-items: center;
+}
+.left-head p{
+    margin: 5px 10px;
+    font-weight: 500;
+}
+.logo{
+    margin: 5px;
+    margin-right: 5px;
+    border: 1px solid #fff;
+    height: 27px;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo-letter{
+    padding: 0px 7px;
+}
+.right-head p{
+    margin: 5px 10px;
+    font-weight: 500;
+}

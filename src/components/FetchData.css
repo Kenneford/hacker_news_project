@@ -1,0 +1,115 @@
+.article-cont{
+    min-height: 100vh;
+    background: #cccc;
+}
+.article-cont-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    padding-top: 5px;
+}
+.left{
+    display: flex;
+    margin-left: 10px;
+}
+.left p{
+    margin: 5px;
+    margin-left: 10px;
+}
+.left button{
+    padding: 2px 15px;
+    cursor: pointer;
+    height: 25px;
+    margin-top: 5px;
+    border: 1px solid #afaeae;
+    border-radius: 3px;
+    font-weight: 100;
+    color: #696969;
+    font-size: .81em;
+}
+.loading1{
+    color: #000;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+.article-wrap{
+    align-items: center;
+    background: #fff;
+    margin: 4px 0;
+    padding: 10px;
+}
+.single-article{
+    padding: 10px 0 0 15px;
+    margin-top: -10px;
+}
+.article-wrap:hover{
+    /* background: #464646; */
+    /* color: #fff; */
+}
+.single-article a{
+    text-decoration: none;
+    color: #f5813e;
+    padding-bottom: 10px;
+}
+.article-info{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 5px;
+    align-items: center;
+}
+.article-info p{
+    margin: 0 10px;
+    font-size: .8em;
+    font-weight: 400;
+    letter-spacing: 1px;font-family: 'roboto';
+    align-items: center;
+}
+.article-info p:hover{
+    text-decoration: underline;
+}
+.article-url{
+    margin-left: 20px;
+    border: 1px solid #fe6f1c;
+    border-radius: 20px;
+    padding: 1px 5px 2px;
+    font-size: .8em;
+    color: #fe6f1c;
+    background: transparent;
+    text-decoration: none;
+}
+.article-url:hover{
+    background: #fe6f1c;
+    color: #fff;
+}
+
+.pagination{
+    /* position: fixed; */
+    /* left: 0;
+    bottom: 0; */
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    align-items: center;
+    list-style: none;
+}
+.pagination a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #afaeae;
+    margin: 5px;
+    padding: 2px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.pagination a:hover{
+    background: #afaeae;
+    color: #fff;
+    border: 1px solid #fff;
+}
+.active-page{
+    border: 1px solid #fe6f1c;
+    border-radius: 5px;
+}
