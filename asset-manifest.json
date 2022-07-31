@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hacker_news_project/static/css/main.fd4ab6b0.css",
+    "main.js": "/hacker_news_project/static/js/main.2d59008f.js",
+    "static/media/sad-dog1.jpg": "/hacker_news_project/static/media/sad-dog1.5acf3840f9a5fed37db4.jpg",
+    "static/media/logo.svg": "/hacker_news_project/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/hacker_news_project/index.html",
+    "main.fd4ab6b0.css.map": "/hacker_news_project/static/css/main.fd4ab6b0.css.map",
+    "main.2d59008f.js.map": "/hacker_news_project/static/js/main.2d59008f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd4ab6b0.css",
+    "static/js/main.2d59008f.js"
+  ]
+}
