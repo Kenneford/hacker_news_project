@@ -7,9 +7,9 @@ export default function ArticleHeader() {
     <div className='story-head'>
         <div className='left-head'>
             <div className='logo'>
-                <Link to="/">
-                  <h3 className='logo-letter'>Y</h3>
-                </Link>
+                  <Link to="/hacker_news_project">
+                    <h3 className='logo-letter'>Y</h3>
+                  </Link>
             </div>
             <h3>Hacker News</h3>
             <p>new</p> | {''}
