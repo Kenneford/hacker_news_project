@@ -113,3 +113,10 @@
     border: 1px solid #fe6f1c;
     border-radius: 5px;
 }
+.fetchErr{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: rgb(226, 13, 13);
+}

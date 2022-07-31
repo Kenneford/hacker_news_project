@@ -45,7 +45,7 @@ const readArticles = async ()=>{
     <>
     <HomeHeader readArticles={readArticles} searchArticle={searchArticle} setSearchArticle={setSearchArticle} />
         <div className='article-cont'>
-        {errMessage ? <div>{errMessage}</div> : <></>}
+        {errMessage ? <div className='fetchErr'>{errMessage} the required data...😒</div> : <></>}
             <div className='article-cont-header'>
                 <div className='left'>
                     <p>Search</p>
