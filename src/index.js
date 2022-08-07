@@ -11,11 +11,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
-      <Routes>
-        <Route path="/hacker_news_project" element={<App />}>
-        </Route>
-          <Route path='/article-overview/:id' element={<ArticleOverview />} />
-        <Route path='*' element={
+        <Routes>
+            <Route path="/hacker_news_project" element={<App />}/>
+            <Route path='/article-overview/:id' element={<ArticleOverview />} />
+            <Route path='*' element={
                 <div className='ooops'>
                     <h1 className='empty-page-msg'>Ooops! There is nothing in here...😒</h1>
                     <Link to="/hacker_news_project" ><button className='ooops-btn'>Go Back</button></Link>
